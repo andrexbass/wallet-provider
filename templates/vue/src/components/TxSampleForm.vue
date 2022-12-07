@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Fee, MsgSend } from '@terra-money/terra.js';
+import { Fee, MsgSend } from '@terra-rebels/terra.js';
 import {
   ConnectedWallet,
   CreateTxFailed,
@@ -8,7 +8,7 @@ import {
   TxResult,
   TxUnspecifiedError,
   UserDenied,
-} from '@terra-money/wallet-controller';
+} from '@terra-rebels/wallet-controller';
 import { ref, toRefs } from 'vue';
 
 const TEST_TO_ADDRESS = 'terra12hnhh5vtyg5juqnzm43970nh4fw42pt27nw9g9';

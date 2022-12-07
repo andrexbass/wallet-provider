@@ -40,9 +40,9 @@ build({
       dependencies['rxjs'] = '^7.0.0';
     }
 
-    if ('@terra-money/terra.js' in dependencies) {
-      delete dependencies['@terra-money/terra.js'];
-      peerDependencies['@terra-money/terra.js'] = '^3.1.6';
+    if ('@terra-rebels/terra.js' in dependencies) {
+      delete dependencies['@terra-rebels/terra.js'];
+      peerDependencies['@terra-rebels/terra.js'] = '^1.0.0';
     }
 
     //switch (packageName) {
@@ -55,7 +55,7 @@ build({
     //}
 
     //switch (packageName) {
-    //  case '@terra-money/wallet-provider':
+    //  case '@terra-rebels/wallet-provider':
     //    peerDependenciesMeta['react-router-dom'] = {
     //      optional: true,
     //    };
@@ -63,8 +63,8 @@ build({
     //}
 
     //[
-    //  '@terra-money/wallet-provider',
-    //  '@terra-money/webapp-provider',
+    //  '@terra-rebels/wallet-provider',
+    //  '@terra-rebels/webapp-provider',
     //  '@anchor-protocol/webapp-provider',
     //  '@terra-dev/use-browser-inactive',
     //].forEach((dependencyName) => {

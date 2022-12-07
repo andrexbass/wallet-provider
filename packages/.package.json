@@ -1,9 +1,9 @@
 {
-  "author": "Terraform Labs PTE.LTD",
+  "author": "Terra Rebels",
   "license": "Apache-2.0",
-  "repository": "git://github:terra-money/wallet-provider",
-  "bugs": "https://github.com/terra-money/wallet-provider/issues",
-  "homepage": "https://github.com/terra-money/wallet-provider/tree/main/packages/src/{name}",
+  "repository": "git://github:terra-rebels/wallet-provider",
+  "bugs": "https://github.com/terra-rebels/wallet-provider/issues",
+  "homepage": "https://github.com/terra-rebels/wallet-provider/tree/main/packages/src/{name}",
   "engines": {
     "node": ">=16"
   },

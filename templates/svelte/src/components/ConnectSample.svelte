@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Connection, ConnectType, WalletStates, WalletStatus } from '@terra-money/wallet-controller';
+  import { Connection, ConnectType, WalletStates, WalletStatus } from '@terra-rebels/wallet-controller';
   import { getController } from 'controller';
   import { combineLatest, Subscription } from 'rxjs';
   import { onDestroy, onMount } from 'svelte';

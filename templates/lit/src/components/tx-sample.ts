@@ -1,4 +1,4 @@
-import { Fee, MsgSend } from '@terra-money/terra.js';
+import { Fee, MsgSend } from '@terra-rebels/terra.js';
 import {
   ConnectedWallet,
   CreateTxFailed,
@@ -7,7 +7,7 @@ import {
   TxResult,
   TxUnspecifiedError,
   UserDenied,
-} from '@terra-money/wallet-controller';
+} from '@terra-rebels/wallet-controller';
 import { getController } from 'controller';
 import { html, LitElement, TemplateResult } from 'lit';
 import { customElement, property, state } from 'lit/decorators.js';

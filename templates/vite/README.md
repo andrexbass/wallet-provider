@@ -1,10 +1,10 @@
 # What is this?
 
-This is an example of performing basic connect, tx, and query actions in a Vite-based web application using [wallet-provider](https://www.npmjs.com/package/@terra-money/wallet-provider).
+This is an example of performing basic connect, tx, and query actions in a Vite-based web application using [wallet-provider](https://www.npmjs.com/package/@terra-rebels/wallet-provider).
 
 # Preview this template on the CodeSandbox
 
-<https://githubbox.com/terra-money/wallet-provider/tree/main/templates/vite>
+<https://githubbox.com/terra-rebels/wallet-provider/tree/main/templates/vite>
 
 # How to use this template
 

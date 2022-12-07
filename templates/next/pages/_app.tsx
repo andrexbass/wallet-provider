@@ -3,7 +3,7 @@ import {
   StaticWalletProvider,
   WalletControllerChainOptions,
   WalletProvider,
-} from '@terra-money/wallet-provider';
+} from '@terra-rebels/wallet-provider';
 import { AppProps } from 'next/app';
 import Link from 'next/link';
 import React from 'react';

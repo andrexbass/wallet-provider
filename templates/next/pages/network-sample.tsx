@@ -1,4 +1,4 @@
-import { useWallet, WalletStatus } from '@terra-money/use-wallet';
+import { useWallet, WalletStatus } from '@terra-rebels/use-wallet';
 import { useCallback, useEffect, useMemo, useState } from 'react';
 
 export default function NetworkSample() {

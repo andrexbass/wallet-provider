@@ -3,7 +3,7 @@ import {
   ConnectType,
   WalletStates,
   WalletStatus,
-} from '@terra-money/wallet-controller';
+} from '@terra-rebels/wallet-controller';
 import { getController } from 'controller';
 import { html, LitElement, TemplateResult } from 'lit';
 import { customElement, state } from 'lit/decorators.js';

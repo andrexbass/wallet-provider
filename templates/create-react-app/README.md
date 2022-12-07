@@ -1,10 +1,10 @@
 # What is this?
 
-This is an example of performing basic connect, tx, and query actions in a react-based web application using [wallet-provider](https://www.npmjs.com/package/@terra-money/wallet-provider).
+This is an example of performing basic connect, tx, and query actions in a react-based web application using [wallet-provider](https://www.npmjs.com/package/@terra-rebels/wallet-provider).
 
 # Preview this template on CodeSandbox
 
-<https://githubbox.com/terra-money/wallet-provider/tree/main/templates/create-react-app>
+<https://githubbox.com/terra-rebels/wallet-provider/tree/main/templates/create-react-app>
 
 # How to use this template
 

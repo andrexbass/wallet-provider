@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ConnectedWallet } from '@terra-money/wallet-controller';
+import { ConnectedWallet } from '@terra-rebels/wallet-controller';
 import TxSampleForm from 'components/TxSampleForm.vue';
 import { getController } from 'controller';
 import { Subscription } from 'rxjs';

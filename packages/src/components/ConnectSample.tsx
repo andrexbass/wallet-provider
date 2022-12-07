@@ -1,4 +1,4 @@
-import { useWallet, WalletStatus } from '@terra-money/wallet-provider';
+import { useWallet, WalletStatus } from '@terra-rebels/wallet-provider';
 import React from 'react';
 
 export function ConnectSample() {
