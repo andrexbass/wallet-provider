@@ -24,7 +24,7 @@ const FALLBACK: Extensions = {
       urls: [
         {
           browser: 'chrome',
-          url: 'https://chrome.google.com/webstore/detail/terra-station/aiifbnbfobpmeekipheeijimdpnlpgpp',
+          url: 'https://chrome.google.com/webstore/detail/rebel-station-wallet/akckefnapafjbpphkefbpkpcamkoaoai',
         },
         {
           browser: 'firefox',

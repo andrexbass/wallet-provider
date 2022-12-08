@@ -15,25 +15,25 @@ export type WalletControllerChainOptions = Pick<
   'defaultNetwork' | 'walletConnectChainIds'
 >;
 
-const FALLBACK_MAINNET = {
-  name: 'mainnet',
-  chainID: 'phoenix-1',
-  lcd: 'https://phoenix-lcd.terra.dev',
+const FALLBACK_CLASSIC = {
+  name: 'classic',
+  chainID: 'columbus-5',
+  lcd: 'https://lcd.terrarebels.net',
 };
 
 const FALLBACK: WalletControllerChainOptions = {
-  defaultNetwork: FALLBACK_MAINNET,
+  defaultNetwork: FALLBACK_CLASSIC,
   walletConnectChainIds: {
-    1: FALLBACK_MAINNET,
+    1: FALLBACK_CLASSIC,
     0: {
       name: 'testnet',
       chainID: 'pisco-1',
       lcd: 'https://pisco-lcd.terra.dev',
     },
     2: {
-      name: 'classic',
-      chainID: 'columbus-5',
-      lcd: 'https://columbus-lcd.terra.dev',
+      name: 'mainnet',
+      chainID: 'phoenix-1',
+      lcd: 'https://phoenix-lcd.terra.dev',
     },
   },
 };
@@ -48,12 +48,12 @@ export async function getChainOptions(): Promise<WalletControllerChainOptions> {
       const walletConnectChainIds = chains.reduce((result, network) => {
         if (typeof network.walletconnectID === 'number') {
           result[network.walletconnectID] = network;
-        } else if (!result[1] && network.name === 'mainnet') {
-          result[1] = network;
+        } else if (!result[2] && network.name === 'mainnet') {
+          result[2] = network;
         } else if (!result[0] && network.name === 'testnet') {
           result[0] = network;
-        } else if (!result[2] && network.name === 'classic') {
-          result[2] = network;
+        } else if (!result[1] && network.name === 'classic') {
+          result[1] = network;
         }
         return result;
       }, {} as Record<number, NetworkInfo>);
