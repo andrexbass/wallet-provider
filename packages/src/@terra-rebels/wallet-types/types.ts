@@ -51,10 +51,10 @@ export enum WalletStatus {
 }
 
 export enum ConnectType {
-  /** Terra Station Extension or compatible browser extensions */
+  /** Rebel Station Extension or compatible browser extensions */
   EXTENSION = 'EXTENSION',
 
-  /** Terra Station Mobile or compatible mobile wallets */
+  /** Rebel Station Mobile or compatible mobile wallets */
   WALLETCONNECT = 'WALLETCONNECT',
 
   /** Read only mode - View an address */

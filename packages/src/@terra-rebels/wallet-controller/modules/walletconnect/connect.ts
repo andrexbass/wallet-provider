@@ -30,7 +30,7 @@ export interface WalletConnectControllerOptions {
    * @default
    * ```js
    * {
-   *   bridge: 'https://walletconnect.terra.dev/',
+   *   bridge: 'https://walletconnect.terrarebels.net/',
    *   qrcodeModal: new TerraWalletconnectQrcodeModal(),
    * }
    * ```
@@ -81,7 +81,7 @@ export function connect(
     options.connectorOpts?.qrcodeModal ?? new TerraWalletconnectQrcodeModal();
 
   const connectorOpts: IWalletConnectOptions = {
-    bridge: 'https://walletconnect.terra.dev/',
+    bridge: 'https://walletconnect.terrarebels.net/',
     qrcodeModal,
     ...options.connectorOpts,
   };
@@ -262,7 +262,7 @@ export function connect(
       );
 
       // FIXME changed walletconnect confirm schema
-      window.location.href = `terrastation://walletconnect_confirm/?payload=${payload}`;
+      window.location.href = `rebelstation://walletconnect_confirm/?payload=${payload}`;
       //window.location.href = `terrastation://wallet_connect_confirm?id=${id}&handshakeTopic=${
       //  connector.handshakeTopic
       //}&params=${JSON.stringify([serializedTxOptions])}`;

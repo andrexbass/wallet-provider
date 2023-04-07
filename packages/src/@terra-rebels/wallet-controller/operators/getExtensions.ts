@@ -18,18 +18,18 @@ interface Extensions {
 const FALLBACK: Extensions = {
   whitelist: [
     {
-      name: 'Terra Station',
-      identifier: 'station',
+      name: 'Rebel Station',
+      identifier: 'rebel-station',
       icon: 'https://assets.terrarebels.net/icon/station-extension/icon.png',
       urls: [
         {
           browser: 'chrome',
           url: 'https://chrome.google.com/webstore/detail/rebel-station-wallet/akckefnapafjbpphkefbpkpcamkoaoai',
         },
-        {
-          browser: 'firefox',
-          url: 'https://addons.mozilla.org/en-US/firefox/addon/terra-station-wallet/',
-        },
+        // {
+        //   browser: 'firefox',
+        //   url: 'https://addons.mozilla.org/en-US/firefox/addon/terra-station-wallet/',
+        // },
       ],
     },
     {

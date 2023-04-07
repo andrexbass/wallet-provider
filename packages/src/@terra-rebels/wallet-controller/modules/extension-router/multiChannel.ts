@@ -21,8 +21,8 @@ export function getTerraExtensions(): ExtensionInfo[] {
     : window.isTerraExtensionAvailable
     ? [
         {
-          name: 'Terra Station',
-          identifier: 'station',
+          name: 'Rebel Station',
+          identifier: 'rebel-station',
           icon: 'https://assets.terrarebels.net/icon/wallet-provider/station.svg',
         },
       ]

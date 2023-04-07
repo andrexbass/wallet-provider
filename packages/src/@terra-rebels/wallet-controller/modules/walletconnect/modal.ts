@@ -25,7 +25,7 @@ export class TerraWalletconnectQrcodeModal implements IQRCodeModal {
       `action=wallet_connect&payload=${encodeURIComponent(uri)}`,
     );
 
-    const schemeUri = `https://terrastation.page.link/?link=https://terra.money?${query}&apn=money.terra.station&ibi=money.terra.station&isi=1548434735`;
+    const schemeUri = `https://terrarebels.page.link/?link=https://terrarebels.net?${query}&apn=net.terrarebels.station&ibi=net.terrarebels.station&isi=1548434735`;
 
     const element = createModalElement({
       schemeUri,
@@ -74,7 +74,7 @@ function createModalElement({
 }): HTMLElement {
   const isMobile = isMobileBrowser();
 
-  const openTerraStationMobile = () => {
+  const openRebelStationMobile = () => {
     window.location.href = schemeUri;
   };
 
@@ -130,8 +130,8 @@ function createModalElement({
   if (isMobile) {
     // button
     const button = document.createElement('button');
-    button.addEventListener('click', openTerraStationMobile);
-    button.textContent = 'Open Terra Station Mobile';
+    button.addEventListener('click', openRebelStationMobile);
+    button.textContent = 'Open Rebel Station Mobile';
 
     content.appendChild(button);
   } else {
